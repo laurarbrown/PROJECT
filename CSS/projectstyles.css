@@ -76,7 +76,8 @@ margin-top: 5px;
 margin-bottom: 5px;
 
 }
-img {
+
+.forcarousel {
 
 display: flex;
 margin: 0;
@@ -97,13 +98,6 @@ h3, p {
   font-style: normal;
 }
 
-#box-1, #box-2, #box-3 {
-  border: 2px solid #888;
-  padding: 20px;
-  color: #444;
-  font-size: 20px;
-  text-align: center;
-}
 
 /*Testing mobile capability*/
 
@@ -112,10 +106,6 @@ h3, p {
   display: flex;
 }
 
-#top h1 {
-  display: inline;
-  margin-right: 5px;
-}
 
 #top_text {
   flex-grow: 1;
