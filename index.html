@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--My CSS-->
     <link rel="stylesheet" href="css/projectstyles.css">
+    <!--Jquery-->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/video-hover.js"></script>
 </head>
 
 <body>
@@ -43,9 +46,13 @@
       <div id="box-1" class="col-sm-12 col-md-6 col-lg-4">
         <img src="Images/Resized Images/IMG_7060-HDR-2.jpg" class="img-responsive" alt="Port Douglas">
       </div>
+
+      <!--Box 2 container hover over to play video-->
       <div id="box-2" class="col-sm-12 col-md-6 col-lg-4">
-        <img src="Images/Resized Images/moon compilation 4by6-55.jpg" class="img-responsive" alt="Lunar Eclipse">
+        <video class="moonvid" poster="Images/Resized Images/moon compilation 4by6-55.jpg" preload src="Images/Videos and Gifs/All layers alignedvideo5.mp4" type="video/mp4" loop></video>
       </div>
+
+
       <div id="box-3" class="col-sm-12 col-md-6 col-lg-4">
         <img src="Images/Resized Images/IMG_3647-30-50.jpg" class="img-responsive" alt="Archer Point1">
       </div>
@@ -72,6 +79,6 @@
 
 
     </div>
-
+ <script src="js/scripts.js"></script>
 </body>
 </html>
