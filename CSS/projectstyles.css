@@ -72,8 +72,12 @@ font-size: 1em;
 font-weight: 300;
 font-style: normal;
 margin-top: 5px;
-margin-bottom: 5px;
+margin-bottom: 10px;
 
+}
+
+#carouselExampleControls {
+margin-bottom: 10px;
 }
 
 .forcarousel {
