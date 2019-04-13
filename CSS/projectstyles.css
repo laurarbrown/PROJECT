@@ -10,7 +10,6 @@ font-style: normal;
 div {
 
 width: 100vw;
-
 }
 
 /*navbar links*/
@@ -91,6 +90,10 @@ padding-bottom: 20px;
   width: 100%;
 }
 
+.moonvid {
+  width: 100%;
+}
+
 h3, p {
   text-align: center;
   justify-content: center;
@@ -103,8 +106,10 @@ h3, p {
 }
 
 
+
 /*Testing mobile capability*/
 /*Columns and Rows*/
+
 
 #top {
   padding: 20px 0;
