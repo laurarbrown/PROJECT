@@ -18,6 +18,7 @@
 <body>
   <div id="1">
     <h1><a href="index.html">Laura R Brown</a></h1>
+    <!--Instagram icon link-->
     <a target="_blank" href="https://www.instagram.com/laurarichbrown"><i id="insta" class="fab fa-instagram fa-lg"></i></a>
 <hr>
     <h2>Design</h2>
@@ -32,15 +33,15 @@
   </div>
 
   <hr>
-
-    <p>My design work covers a variety of subjects and media; including more traditional illustration such as watercolour and printwork to 3D model making and video production.
+   <!--Top paragraph-->
+    <p>My design work covers a variety of subjects and media;<br>including more traditional illustration such as watercolour and printwork to 3D model making and video production.<br>I have also worked as a studio assistant to illustrators and animators.
     </p>
 
     <!--GRID-->
     <div>
     <div class="row">
       <div id="box-1" class="col-sm-12 col-md-6 col-lg-6">
-        <img src="Images/Resized Images/_MG_0112-2 edit-3.jpg" class="img-responsive" alt="Shackleton">
+        <img src="Images/Resized Images/_MG_0112-2 edit-3.jpg" class="img-responsive" alt="Shackleton" onclick="openModal();currentSlide(1)" class="hover-shadow">
         <h5>Design:<br>Papercut Trans-Antarctic Expedition</h5>
         <h6>Click For More</h6>
       </div>
@@ -90,6 +91,59 @@
         <h6>Click For More</h6>
       </div>
     </div>
+
+    <!-- The Modal/Lightbox-->
+  <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content vertical-center">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 7</div>
+      <img src="Images/Resized Images/_MG_0112-2 edit-3.jpg"  >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 7</div>
+      <img src="Images/Resized Images/_MG_0135-8-2.jpg"  >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 7</div>
+      <img src="Images/Resized Images/_MG_0267-13-2.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 7</div>
+      <img src="Images/Resized Images/img002-16.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 7</div>
+      <img src="Images/Resized Images/img003-15.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 7</div>
+      <img src="Images/Resized Images/IMG_20160212_005653-6.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 7</div>
+      <img src="Images/Resized Images/IMG_20160420_215450-7.jpg">
+    </div>
+
+    <!-- Next/previous controls -->
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+   <!-- Caption text -->
+   <div class="caption-container">
+     <p id="caption"></p>
+   </div>
+
+
+   <!--my JS-->
+   <script src="js/imagemodal.js"></script>
 
 </body>
 </html>
