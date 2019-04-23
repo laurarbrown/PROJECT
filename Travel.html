@@ -18,6 +18,8 @@
 <body>
   <div id="1">
     <h1><a href="index.html">Laura R Brown</a></h1>
+    <!--instagram icon link-->
+    <a target="_blank" href="https://www.instagram.com/laurarichbrown"><i id="insta" class="fab fa-instagram fa-lg"></i></a>
 <hr>
     <h2>Travel</h2>
 
@@ -31,33 +33,86 @@
   </div>
 
   <hr>
-
+  <!--Top paragraph-->
     <p>
-        I am forever exploring and trying new things: a love of learning, trial and error, making mistakes and trying again. Along with story telling, this is what excites me most about photography. There is always something more, somewhere new, to discover and when I find it, I am driven to get better and better.
+      “Travel to create a story worth telling”.<br>
+      Traveling combines my two loves: exploring and stories.<br>This is what excites me most about photography. There is always something new to learn, somewhere new. I recently discovered long exposure photography and working on this in some dream locations, has been an incredible learning experience. I am driven to find out more and better my craft to create those stories worth telling.
     </p>
 
     <!--GRID-->
     <div>
     <div class="row">
       <div id="box-1" class="col-sm-12 col-md-6 col-lg-6">
-        <img src="Images/Resized Images/IMG_6761-Edit-2-57.jpg" class="img-responsive" alt="Princess Pier">
+        <img src="Images/Resized Images/IMG_6761-Edit-2-57.jpg" class="img-responsive" alt="Princess Pier" onclick="openModal();currentSlide(1)" class="hover-shadow">
+          <h5>Travel:<br>Long Exposures</h5>
+          <h6>Click For More</h6>
       </div>
       <div id="box-2" class="col-sm-12 col-md-6 col-lg-6">
-        <img src="Images/Resized Images/IMG_7060-HDR-2.jpg" class="img-responsive" alt="Port Douglas">
+        <img src="Images/Resized Images/IMG_7060-HDR-2.jpg" class="img-responsive" alt="Port Douglas" onclick="openModal();currentSlide(5)" class="hover-shadow">
+        <h5>Travel:<br>Australian Sunsets</h5>
+        <h6>Click For More</h6>
       </div>
       <div id="box-3" class="col-sm-12 col-md-6 col-lg-6">
         <img src="Images/Resized Images/IMG_3647-30-50.jpg" class="img-responsive" alt="Archer Point1">
+        <h5>Travel:<br>North Queensland Australia</h5>
+        <h6>Click For More</h6>
       </div>
       <div id="box-4" class="col-sm-12 col-md-6 col-lg-6">
         <img src="Images/Resized Images/IMG_0847-158-42.jpg" class="img-responsive" alt="Whitsundays1">
+        <h5>Travel:<br>Whitsunday Islands</h5>
+        <h6>Click For More</h6>
       </div>
       <div id="box-5" class="col-sm-12 col-md-6 col-lg-6">
         <img src="Images/Resized Images/IMG_7363-3-2-11.jpg" class="img-responsive" alt="Bushy">
+        <h5>Travel:<br>London</h5>
+        <h6>Click For More</h6>
       </div>
       <div id="box-6" class="col-sm-12 col-md-6 col-lg-6">
         <img src="Images/Resized Images/moon compilation 4by6-55.jpg" class="img-responsive" alt="Mooncomp">
+        <h5>Travel:<br>Lunar Trifecta Australia</h5>
+        <h6>Click For More</h6>
       </div>
     </div>
+
+
+    <!-- The Modal/Lightbox-->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content vertical-center">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="Images/Resized Images/IMG_6761-Edit-2-57.jpg"  >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="Images/Resized Images/IMG_3175-39-45.jpg"  >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="Images/Resized Images/IMG_3215-46-46.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="Images/Resized Images/IMG_7324-25-60.jpg"  >
+    </div>
+
+
+    <!-- Next/previous controls -->
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+   <!-- Caption text -->
+   <div class="caption-container">
+     <p id="caption"></p>
+   </div>
+
+
+   <!--my JS-->
+   <script src="js/imagemodal.js"></script>
 
 </body>
 </html>
