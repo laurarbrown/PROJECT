@@ -1,3 +1,5 @@
+
+//Hover function for video on index page
 $(document).ready(function () {
   var playing = false;
     $('.moonvid').hover(function () {
