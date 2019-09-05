@@ -145,8 +145,8 @@ h6 {
   font-style: normal;
 }
 
-/*header 6 used on hover of grid images, mouse over underline*/
-[id="2"]:hover {
+/*header 6 used on hover of grid images, hover underline*/
+h6:hover {
   text-decoration: underline;
 }
 
