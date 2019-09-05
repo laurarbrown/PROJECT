@@ -41,7 +41,7 @@ a:hover {
 /*id=1 is Header 1*/
 [id="1"] {
 text-align: center;
-font-family: servus-slab, serif;
+font-family: proxima-nova-thin, sans-serif;
 font-weight: 300;
 font-style: normal;
 margin-top: 10px;
@@ -132,7 +132,7 @@ h3, p {
 /*header 5 used on hover of grid images*/
 h5 {
   text-align: center;
-  font-family: servus-slab, serif;
+  font-family: acumin-pro, sans-serif;
   font-weight: 200;
   font-style: normal;
 }
@@ -140,7 +140,7 @@ h5 {
 /*header 6 used on hover of grid images*/
 h6 {
   text-align: center;
-  font-family: servus-slab, serif;
+  font-family: acumin-pro, sans-serif;
   font-weight: 100;
   font-style: normal;
 }
