@@ -145,6 +145,11 @@ h6 {
   font-style: normal;
 }
 
+/*header 6 used on hover of grid images, mouse over underline*/
+[id="2"]:hover {
+  text-decoration: underline;
+}
+
 .btn-block {
   margin-top: 100px;
 }
