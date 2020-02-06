@@ -1,0 +1,213 @@
+body {
+
+color: #132238;
+background-color: ##f9f9f9;
+font-family: acumin-pro, sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+/*width of viewport*/
+div {
+width: 100vw;
+}
+
+/*navbar links*/
+a {
+  text-decoration: none;
+  color: #364E68;
+}
+
+/*change color of link hover in navbar*/
+a:hover {
+  color: #A0A0A0;
+  text-decoration: none!important;
+}
+
+/*instagram icon*/
+[id="insta"] {
+  float: right;
+  margin-right: 40px;
+  text-decoration: none;
+  color: #364E68;
+}
+
+/*instagram icon on hover*/
+[id="insta"]:hover {
+  color: #A0A0A0;
+  text-decoration: none!important;
+}
+
+/*id=1 is Header 1*/
+[id="1"] {
+text-align: center;
+font-family: proxima-nova-thin, sans-serif;
+font-weight: 300;
+font-style: normal;
+margin-top: 10px;
+}
+
+/*id=2 is navbar links*/
+[id="2"] {
+  text-align: center;
+  word-spacing: 15px
+}
+
+/*id=3 is new navbar links*/
+[id="3"] {
+  display: inline-block;
+  text-align: center;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+/*header 1*/
+h1 {
+margin-bottom: 5px;
+color: #132238;
+font-size: 1.7em;
+font-weight: 200;
+font-style: normal;
+
+}
+
+/*horizontal lines under Header 1 and navbar*/
+hr {
+  width: 200px;
+  color: #98ccd3;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*header 2*/
+h2 {
+color: #132238;
+font-size: 1em;
+font-weight: 300;
+font-style: italic;
+margin-top: 5px;
+margin-bottom: 10px;
+
+}
+
+
+/*grid images*/
+.img-responsive {
+  width: 100%;
+}
+
+/*grid video on index page*/
+.moonvid {
+  width: 100%;
+}
+
+/*header 3 and paragraphs*/
+h3, p {
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-top: 20px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/*header 5 used on hover of grid images*/
+h5 {
+  text-align: center;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/*header 6 used on hover of grid images*/
+h6 {
+  text-align: center;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/*header 6 used on hover of grid images, hover underline*/
+h6:hover {
+  text-decoration: underline;
+}
+
+.btn-block {
+  margin-top: 100px;
+}
+
+
+/*Grid*/
+/*Columns and Rows*/
+
+#top {
+  padding: 20px 0;
+  display: flex;
+}
+
+
+#top_text {
+  flex-grow: 1;
+}
+
+#display_width {
+  color: #e26;
+}
+
+.xs-size {
+  font-size: 28px;
+}
+.sm-size {
+  font-size: 36px;
+}
+.md-size {
+  font-size: 48px;
+}
+.lg-size {
+  font-size: 60px;
+}
+.xl-size {
+  font-size: 72px;
+}
+
+#display_size {
+  height: fit-content;
+  align-self: center;
+  color: #333;
+  background-color: #f0f0f0;
+  display: inline-block;
+  padding: 6px 12px;
+  font-weight: 500;
+  text-align: center;
+  border: 0.5px solid #ccc;
+  border-radius: 2px;
+}
+#display_size.xs-size {
+  margin-right: 5px;
+}
+#display_size.lg-size {
+  padding: 6px 24px;
+}
+#display_size.xl-size {
+  padding: 6px 32px;
+}
+
+/*container for boxes*/
+.row {
+  margin: 0px;
+}
+
+/*boxes in grid on all pages*/
+  #box-1, #box-2, #box-25, #box-3, #box-4, #box-5, #box-6, #box-7, #box-8, #box-9, #box-10 {
+    padding: 5px;
+    color: #444;
+    font-size: 20px;
+    text-align: center;
+  }
